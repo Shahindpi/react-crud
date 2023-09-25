@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+form{
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 2px 5px 1px #ddd;
+}
+
+label, input, textarea, select, button{
+  width: 100%;
+  padding: 15px 0;
+  margin: 15px 0;
+}
