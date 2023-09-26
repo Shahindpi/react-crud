@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Create from './Create';
 import Contact from './components/Contact';
 import BlogDetails from './components/BlogDetails';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
          <Route path="/create" element={<Create />} />
          <Route path="/contact" element={<Contact />} />
          <Route path="/blogs/:id" element={<BlogDetails />} />
+         <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
